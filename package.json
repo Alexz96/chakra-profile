@@ -1,0 +1,42 @@
+{
+  "name": "chakra-profile",
+  "version": "1.0.0",
+  "description": "A website to show my skills, portfolio and links",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexz96/chakra-profile.git"
+  },
+  "keywords": [
+    "chakraui",
+    "reactjs",
+    "next.js"
+  ],
+  "author": "Alexsander Oliveira<alexsanderao96@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alexz96/chakra-profile/issues"
+  },
+  "homepage": "https://github.com/Alexz96/chakra-profile#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^1.7.4",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "framer-motion": "^6.0.0",
+    "next": "12.0.8",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.7.0",
+    "eslint-config-next": "12.0.8",
+    "prettier": "^2.5.1"
+  }
+}
